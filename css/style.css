@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", serif;
+}
+
+.secondary-bg {
+    background-color: #fff8ff;
+}
+
+.container {
+    background-image: url('../public/images/developer.png'), url('../public/images/header_bg.png');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+
+}
+
+.navber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.navber-link {
+    display: flex;
+    list-style-type: none;
+    align-items: center
+}
+
+.navber-link li {
+    margin-right: 20px;
+}
+
+.navber-link li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.primary-btn {
+    padding: 10px 20px;
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 45px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.navber-titel {
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#sub-title {
+    color: #FD6E0A;
+}
+
+.banner {
+    display: flex;
+    margin: 0 35px 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.content-nav {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.dsc {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.button-box {
+    margin: 0 20px 0 0;
+}
+
+.primary-btn {
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+main section {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.about {
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.content-box {
+    background-color: #fff8f3;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.det {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.det div {
+    line-height: o.5;
+
+}
+
+.det div h3 {
+    font-weight: 300;
+}
+
+.det div h2 {
+    font-family: 20px;
+}
+
+.contact-container {
+    padding: 40px 200px;
+    display: flex;
+    gap: 40px;
+}
+
+.info {
+
+    width: 50%;
+    padding: 20px;
+}
+
+.message {
+
+    width: 50%;
+    padding: 20px;
+}
+
+.icon-list {
+    display: flex;
+}
+
+.icon-list img {
+    margin-right: 20px;
+}
+
+.message form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    padding: 5px 10px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.footer-btn {
+
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.skills {
+    padding: 10px 50px;
+}
+
+.skills-box {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.box-item {
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skill-des {
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.education {
+    width: 50%;
+    padding: 20px;
+}
+
+.experiences {
+    width: 50%;
+    padding: 20px;
+
+}
+
+.education-title {
+    margin: 10px 0px;
+}
+
+.download-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shikha {
+    background-color: aqua;
+}
